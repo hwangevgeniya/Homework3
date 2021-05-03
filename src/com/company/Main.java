@@ -13,7 +13,7 @@ public class Main {
         int count = 0;
 
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = 4; i < numbers.length; i++) {
 
             if (numbers[i] > 0) {
                 sum = sum + numbers[i];

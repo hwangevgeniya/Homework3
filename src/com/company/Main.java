@@ -39,6 +39,32 @@ public class Main {
             System.out.print(numbers[i] + "  ");
         }
 
+
+        double[] numbers2 = {5.6,5.3,-7.7,-8.5,9.0,2,5,6};
+
+        boolean isFirstNegativeNumber = false;
+
+        int count2 = 0;
+
+        double resultsum = 0;
+
+        for (double number22:numbers2) {
+            if (number22<0){
+                isFirstNegativeNumber = true;}
+
+            if (isFirstNegativeNumber) {
+
+                if (number22 > 0) {
+                    resultsum = resultsum + number22;
+                    count2++;
+                }
+
+            }
+        }
+
+        System.out.println("________________________________________");
+        System.out.println(resultsum/count2);
+
     }
 
     }

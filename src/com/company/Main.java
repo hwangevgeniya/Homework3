@@ -15,7 +15,7 @@ public class Main {
 
         for (int i = 4; i < numbers.length; i++) {
 
-            if (numbers[i] > 0) {
+            if (numbers[i] >= 0) {
                 sum = sum + numbers[i];
                 count ++;
             }
@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println(sum);
 
-        double division = sum / numbers.length;
+        double division = sum / count;
 
         System.out.println(sum + " / " + count + " = " + division);
 
